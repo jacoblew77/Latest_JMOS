@@ -7972,16 +7972,16 @@
       },
       "control_city": "Bellemont"
     },
-    "AZ5635": {
-      "id": "AZ5635",
-      "name": "Montezuma Castle Nat'l Mon",
-      "network": "AZCLIMATE",
-      "lat": 34.6114,
-      "lon": -111.835,
-      "elev_ft": 3212,
-      "obs_date_label": "Fri, Nov 20",
-      "prev_obs_min": 42.0,
-      "prev_obs_max": 69.0,
+    "KP52": {
+      "id": "KP52",
+      "name": "Cottonwood Airport",
+      "network": "AZ_ASOS",
+      "lat": 34.7301,
+      "lon": -112.0351,
+      "elev_ft": 3560,
+      "obs_date_label": "Wed, Nov 25",
+      "prev_obs_min": 33.8,
+      "prev_obs_max": 66.2,
       "periods": [
         {
           "key": "min_1",
@@ -8001,37 +8001,31 @@
           ],
           "window_desc": "f01\u2013f10 (07Z\u201316Z / 12:00 AM\u20139:00 AM MST, 10 hourly steps)",
           "verify_date": "Thu, Nov 26",
-          "raw_hrrr_f": 42.3,
-          "mos_f": 30.3,
-          "mos_eq_f": 30.3,
+          "raw_hrrr_f": 46.1,
+          "mos_f": 38.4,
+          "mos_eq_f": 38.4,
           "used_raw_fallback": false,
-          "delta_f": -12.1,
-          "holdout_mos_mae": 2.55,
-          "holdout_raw_mae": 10.49,
+          "delta_f": -7.7,
+          "holdout_mos_mae": 2.68,
+          "holdout_raw_mae": 6.46,
           "breakdown": [
             {
               "term": "Intercept",
               "value": 1.0,
-              "weight": -17.189,
-              "contrib": -17.19
+              "weight": -4.0299,
+              "contrib": -4.03
             },
             {
               "term": "hrrr_ext_t",
-              "value": 42.34,
-              "weight": 0.7464,
-              "contrib": 31.6
+              "value": 46.09,
+              "weight": 0.8211,
+              "contrib": 37.85
             },
             {
-              "term": "hrrr_win_rh",
-              "value": 34.51,
-              "weight": 0.1407,
-              "contrib": 4.86
-            },
-            {
-              "term": "norm_t",
-              "value": 32.56,
-              "weight": 0.3385,
-              "contrib": 11.02
+              "term": "hrrr_win_dp2m",
+              "value": 20.27,
+              "weight": 0.2271,
+              "contrib": 4.6
             }
           ]
         },
@@ -8054,43 +8048,25 @@
           ],
           "window_desc": "f11\u2013f21 (17Z\u201303Z / 10:00 AM\u20138:00 PM MST, 11 hourly steps)",
           "verify_date": "Thu, Nov 26",
-          "raw_hrrr_f": 70.4,
-          "mos_f": 69.7,
-          "mos_eq_f": 69.7,
+          "raw_hrrr_f": 71.4,
+          "mos_f": 70.4,
+          "mos_eq_f": 70.4,
           "used_raw_fallback": false,
-          "delta_f": -0.6,
-          "holdout_mos_mae": 4.03,
-          "holdout_raw_mae": 4.4,
+          "delta_f": -1.0,
+          "holdout_mos_mae": 2.02,
+          "holdout_raw_mae": 2.06,
           "breakdown": [
             {
               "term": "Intercept",
               "value": 1.0,
-              "weight": -1.5438,
-              "contrib": -1.54
+              "weight": -0.8275,
+              "contrib": -0.83
             },
             {
               "term": "hrrr_ext_t",
-              "value": 70.36,
-              "weight": 0.8269,
-              "contrib": 58.18
-            },
-            {
-              "term": "hrrr_lcdc",
-              "value": 0.0,
-              "weight": 0.0906,
-              "contrib": 0.0
-            },
-            {
-              "term": "hrrr_wspd10_kt",
-              "value": 2.13,
-              "weight": 0.2969,
-              "contrib": 0.63
-            },
-            {
-              "term": "norm_t",
-              "value": 68.83,
-              "weight": 0.1811,
-              "contrib": 12.47
+              "value": 71.37,
+              "weight": 0.9973,
+              "contrib": 71.18
             }
           ]
         },
@@ -8115,37 +8091,43 @@
           ],
           "window_desc": "f22\u2013f34 (04Z\u201316Z / 9:00 PM\u20139:00 AM MST, 13 hourly steps)",
           "verify_date": "Fri, Nov 27",
-          "raw_hrrr_f": 44.4,
-          "mos_f": 28.0,
-          "mos_eq_f": 28.0,
+          "raw_hrrr_f": 44.5,
+          "mos_f": 36.3,
+          "mos_eq_f": 36.3,
           "used_raw_fallback": false,
-          "delta_f": -16.4,
-          "holdout_mos_mae": 2.78,
-          "holdout_raw_mae": 10.89,
+          "delta_f": -8.2,
+          "holdout_mos_mae": 2.46,
+          "holdout_raw_mae": 6.58,
           "breakdown": [
             {
               "term": "Intercept",
               "value": 1.0,
-              "weight": -5.2198,
-              "contrib": -5.22
+              "weight": -4.5226,
+              "contrib": -4.52
             },
             {
               "term": "hrrr_ext_t",
-              "value": 44.39,
-              "weight": 0.78,
-              "contrib": 34.62
+              "value": 44.5,
+              "weight": 0.1875,
+              "contrib": 8.34
             },
             {
-              "term": "hrrr_win_rh",
-              "value": 23.78,
-              "weight": 0.1698,
-              "contrib": 4.04
+              "term": "hrrr_win_dp2m",
+              "value": 18.04,
+              "weight": 0.8198,
+              "contrib": 14.79
             },
             {
-              "term": "cos_doy_1",
-              "value": 0.83,
-              "weight": -6.5357,
-              "contrib": -5.43
+              "term": "hrrr_v10_kt",
+              "value": -3.72,
+              "weight": 0.4149,
+              "contrib": -1.55
+            },
+            {
+              "term": "hrrr_win_dpd",
+              "value": 31.97,
+              "weight": 0.6028,
+              "contrib": 19.27
             }
           ]
         }
@@ -8154,122 +8136,1100 @@
         {
           "fhr": 1,
           "time_mst": "Thu 12 AM",
-          "raw_temp_f": 46.2
+          "raw_temp_f": 51.4
         },
         {
           "fhr": 2,
           "time_mst": "Thu 01 AM",
-          "raw_temp_f": 45.1
+          "raw_temp_f": 51.0
         },
         {
           "fhr": 3,
           "time_mst": "Thu 02 AM",
-          "raw_temp_f": 45.4
+          "raw_temp_f": 50.2
         },
         {
           "fhr": 4,
           "time_mst": "Thu 03 AM",
-          "raw_temp_f": 44.0
+          "raw_temp_f": 49.4
         },
         {
           "fhr": 5,
           "time_mst": "Thu 04 AM",
-          "raw_temp_f": 43.7
+          "raw_temp_f": 48.3
         },
         {
           "fhr": 6,
           "time_mst": "Thu 05 AM",
-          "raw_temp_f": 42.3
+          "raw_temp_f": 48.2
         },
         {
           "fhr": 7,
           "time_mst": "Thu 06 AM",
-          "raw_temp_f": 42.8
+          "raw_temp_f": 48.9
         },
         {
           "fhr": 8,
           "time_mst": "Thu 07 AM",
-          "raw_temp_f": 42.5
+          "raw_temp_f": 48.9
         },
         {
           "fhr": 9,
           "time_mst": "Thu 08 AM",
-          "raw_temp_f": 42.7
+          "raw_temp_f": 46.1
         },
         {
           "fhr": 10,
           "time_mst": "Thu 09 AM",
-          "raw_temp_f": 48.0
+          "raw_temp_f": 54.5
         },
         {
           "fhr": 11,
           "time_mst": "Thu 10 AM",
-          "raw_temp_f": 53.2
+          "raw_temp_f": 57.9
         },
         {
           "fhr": 12,
           "time_mst": "Thu 11 AM",
-          "raw_temp_f": 58.1
+          "raw_temp_f": 62.4
         },
         {
           "fhr": 13,
           "time_mst": "Thu 12 PM",
-          "raw_temp_f": 62.9
+          "raw_temp_f": 65.5
         },
         {
           "fhr": 14,
           "time_mst": "Thu 01 PM",
-          "raw_temp_f": 66.6
+          "raw_temp_f": 68.5
         },
         {
           "fhr": 15,
           "time_mst": "Thu 02 PM",
-          "raw_temp_f": 69.0
+          "raw_temp_f": 70.3
         },
         {
           "fhr": 16,
           "time_mst": "Thu 03 PM",
-          "raw_temp_f": 70.4
+          "raw_temp_f": 71.4
         },
         {
           "fhr": 17,
           "time_mst": "Thu 04 PM",
-          "raw_temp_f": 70.3
+          "raw_temp_f": 69.9
         },
         {
           "fhr": 18,
           "time_mst": "Thu 05 PM",
-          "raw_temp_f": 64.8
+          "raw_temp_f": 63.7
         },
         {
           "fhr": 19,
           "time_mst": "Thu 06 PM",
-          "raw_temp_f": 59.3
+          "raw_temp_f": 60.1
         },
         {
           "fhr": 20,
           "time_mst": "Thu 07 PM",
-          "raw_temp_f": 56.5
+          "raw_temp_f": 59.8
         },
         {
           "fhr": 21,
           "time_mst": "Thu 08 PM",
-          "raw_temp_f": 55.2
+          "raw_temp_f": 58.3
         },
         {
           "fhr": 22,
           "time_mst": "Thu 09 PM",
-          "raw_temp_f": 55.1
+          "raw_temp_f": 55.5
         },
         {
           "fhr": 23,
           "time_mst": "Thu 10 PM",
-          "raw_temp_f": 53.2
+          "raw_temp_f": 55.6
         },
         {
           "fhr": 24,
           "time_mst": "Thu 11 PM",
-          "raw_temp_f": 52.1
+          "raw_temp_f": 54.5
+        },
+        {
+          "fhr": 25,
+          "time_mst": "Fri 12 AM",
+          "raw_temp_f": 51.6
+        },
+        {
+          "fhr": 26,
+          "time_mst": "Fri 01 AM",
+          "raw_temp_f": 49.8
+        },
+        {
+          "fhr": 27,
+          "time_mst": "Fri 02 AM",
+          "raw_temp_f": 49.0
+        },
+        {
+          "fhr": 28,
+          "time_mst": "Fri 03 AM",
+          "raw_temp_f": 48.6
+        },
+        {
+          "fhr": 29,
+          "time_mst": "Fri 04 AM",
+          "raw_temp_f": 48.4
+        },
+        {
+          "fhr": 30,
+          "time_mst": "Fri 05 AM",
+          "raw_temp_f": 47.5
+        },
+        {
+          "fhr": 31,
+          "time_mst": "Fri 06 AM",
+          "raw_temp_f": 47.0
+        },
+        {
+          "fhr": 32,
+          "time_mst": "Fri 07 AM",
+          "raw_temp_f": 46.2
+        },
+        {
+          "fhr": 33,
+          "time_mst": "Fri 08 AM",
+          "raw_temp_f": 44.5
+        },
+        {
+          "fhr": 34,
+          "time_mst": "Fri 09 AM",
+          "raw_temp_f": 52.0
+        },
+        {
+          "fhr": 35,
+          "time_mst": "Fri 10 AM",
+          "raw_temp_f": 58.7
+        },
+        {
+          "fhr": 36,
+          "time_mst": "Fri 11 AM",
+          "raw_temp_f": 64.4
+        }
+      ],
+      "past_7d_verification": {
+        "00Z": {
+          "min": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 37.4,
+              "mos_f": 38.3,
+              "super_mos_f": 37.8,
+              "hyper_mos_f": null,
+              "raw_f": 43.2
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 44.6,
+              "mos_f": 39.8,
+              "super_mos_f": 43.8,
+              "hyper_mos_f": null,
+              "raw_f": 44.7
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 33.8,
+              "mos_f": 32.3,
+              "super_mos_f": 32.4,
+              "hyper_mos_f": null,
+              "raw_f": 37.3
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 28.4,
+              "mos_f": 31.3,
+              "super_mos_f": 31.6,
+              "hyper_mos_f": null,
+              "raw_f": 39.5
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 37.4,
+              "mos_f": 34.8,
+              "super_mos_f": 35.6,
+              "hyper_mos_f": null,
+              "raw_f": 40.3
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 35.6,
+              "mos_f": 36.3,
+              "super_mos_f": 35.3,
+              "hyper_mos_f": null,
+              "raw_f": 43.5
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 33.8,
+              "mos_f": 35.5,
+              "super_mos_f": 33.2,
+              "hyper_mos_f": null,
+              "raw_f": 43.5
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 35.7,
+              "super_mos_f": 34.8,
+              "hyper_mos_f": 35.0,
+              "raw_f": 45.2
+            }
+          ],
+          "max": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 66.2,
+              "mos_f": 63.9,
+              "super_mos_f": 62.4,
+              "hyper_mos_f": null,
+              "raw_f": 63.9
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 62.6,
+              "mos_f": 61.6,
+              "super_mos_f": 62.7,
+              "hyper_mos_f": null,
+              "raw_f": 61.6
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 57.2,
+              "mos_f": 58.4,
+              "super_mos_f": 59.3,
+              "hyper_mos_f": null,
+              "raw_f": 58.4
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 60.8,
+              "mos_f": 61.4,
+              "super_mos_f": 60.6,
+              "hyper_mos_f": null,
+              "raw_f": 61.4
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 59.0,
+              "mos_f": 59.6,
+              "super_mos_f": 60.4,
+              "hyper_mos_f": null,
+              "raw_f": 59.6
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 64.4,
+              "mos_f": 64.3,
+              "super_mos_f": 63.5,
+              "hyper_mos_f": null,
+              "raw_f": 64.3
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 66.2,
+              "mos_f": 67.3,
+              "super_mos_f": 65.1,
+              "hyper_mos_f": null,
+              "raw_f": 67.3
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 71.2,
+              "super_mos_f": 70.7,
+              "hyper_mos_f": 70.0,
+              "raw_f": 71.2
+            }
+          ],
+          "min_mos_mae": 2.16,
+          "min_raw_mae": 5.86,
+          "min_super_mae": 1.21,
+          "min_hyper_mae": null,
+          "max_mos_mae": 0.99,
+          "max_raw_mae": 0.99,
+          "max_super_mae": 1.37,
+          "max_hyper_mae": null
+        },
+        "06Z": {
+          "min": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 37.4,
+              "mos_f": 38.1,
+              "super_mos_f": 37.4,
+              "hyper_mos_f": null,
+              "raw_f": 42.3
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 44.6,
+              "mos_f": 41.8,
+              "super_mos_f": 43.1,
+              "hyper_mos_f": null,
+              "raw_f": 45.4
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 33.8,
+              "mos_f": 33.6,
+              "super_mos_f": 33.9,
+              "hyper_mos_f": null,
+              "raw_f": 39.5
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 28.4,
+              "mos_f": 31.0,
+              "super_mos_f": 32.2,
+              "hyper_mos_f": null,
+              "raw_f": 37.6
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 37.4,
+              "mos_f": 35.5,
+              "super_mos_f": 35.5,
+              "hyper_mos_f": null,
+              "raw_f": 39.5
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 35.6,
+              "mos_f": 36.9,
+              "super_mos_f": 35.6,
+              "hyper_mos_f": null,
+              "raw_f": 42.9
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 33.8,
+              "mos_f": 38.5,
+              "super_mos_f": 35.5,
+              "hyper_mos_f": null,
+              "raw_f": 45.4
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 38.4,
+              "super_mos_f": 37.0,
+              "hyper_mos_f": 37.2,
+              "raw_f": 46.1
+            }
+          ],
+          "max": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 66.2,
+              "mos_f": 63.8,
+              "super_mos_f": 62.6,
+              "hyper_mos_f": null,
+              "raw_f": 63.8
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 62.6,
+              "mos_f": 62.5,
+              "super_mos_f": 62.5,
+              "hyper_mos_f": null,
+              "raw_f": 62.5
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 57.2,
+              "mos_f": 57.7,
+              "super_mos_f": 59.4,
+              "hyper_mos_f": null,
+              "raw_f": 58.7
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 60.8,
+              "mos_f": 60.2,
+              "super_mos_f": 60.1,
+              "hyper_mos_f": null,
+              "raw_f": 61.2
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 59.0,
+              "mos_f": 58.0,
+              "super_mos_f": 59.2,
+              "hyper_mos_f": null,
+              "raw_f": 59.0
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 64.4,
+              "mos_f": 63.1,
+              "super_mos_f": 63.4,
+              "hyper_mos_f": null,
+              "raw_f": 64.1
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 66.2,
+              "mos_f": 66.1,
+              "super_mos_f": 64.9,
+              "hyper_mos_f": null,
+              "raw_f": 67.1
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 70.4,
+              "super_mos_f": 71.1,
+              "hyper_mos_f": 70.1,
+              "raw_f": 71.4
+            }
+          ],
+          "min_mos_mae": 2.03,
+          "min_raw_mae": 5.94,
+          "min_super_mae": 1.29,
+          "min_hyper_mae": null,
+          "max_mos_mae": 0.86,
+          "max_raw_mae": 0.8,
+          "max_super_mae": 1.3,
+          "max_hyper_mae": null
+        },
+        "12Z": {
+          "min": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 37.4,
+              "mos_f": 39.1,
+              "super_mos_f": 38.7,
+              "hyper_mos_f": null,
+              "raw_f": 43.2
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 44.6,
+              "mos_f": 41.1,
+              "super_mos_f": 44.7,
+              "hyper_mos_f": null,
+              "raw_f": 46.7
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 33.8,
+              "mos_f": 32.9,
+              "super_mos_f": 31.8,
+              "hyper_mos_f": null,
+              "raw_f": 37.2
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 28.4,
+              "mos_f": 29.6,
+              "super_mos_f": 31.2,
+              "hyper_mos_f": null,
+              "raw_f": 38.0
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 37.4,
+              "mos_f": 34.0,
+              "super_mos_f": 35.2,
+              "hyper_mos_f": null,
+              "raw_f": 39.2
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 35.6,
+              "mos_f": 36.4,
+              "super_mos_f": 35.8,
+              "hyper_mos_f": null,
+              "raw_f": 43.8
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 33.8,
+              "mos_f": 37.9,
+              "super_mos_f": 35.7,
+              "hyper_mos_f": null,
+              "raw_f": 45.1
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 36.6,
+              "super_mos_f": 35.3,
+              "hyper_mos_f": null,
+              "raw_f": 45.2
+            }
+          ],
+          "max": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 66.2,
+              "mos_f": 63.9,
+              "super_mos_f": 63.3,
+              "hyper_mos_f": null,
+              "raw_f": 63.9
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 62.6,
+              "mos_f": 62.7,
+              "super_mos_f": 62.8,
+              "hyper_mos_f": null,
+              "raw_f": 62.7
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 57.2,
+              "mos_f": 57.5,
+              "super_mos_f": 59.1,
+              "hyper_mos_f": null,
+              "raw_f": 58.4
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 60.8,
+              "mos_f": 60.1,
+              "super_mos_f": 60.0,
+              "hyper_mos_f": null,
+              "raw_f": 61.1
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 59.0,
+              "mos_f": 58.7,
+              "super_mos_f": 59.9,
+              "hyper_mos_f": null,
+              "raw_f": 59.7
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 64.4,
+              "mos_f": 63.2,
+              "super_mos_f": 64.4,
+              "hyper_mos_f": null,
+              "raw_f": 64.1
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 66.2,
+              "mos_f": 66.5,
+              "super_mos_f": 65.8,
+              "hyper_mos_f": null,
+              "raw_f": 67.4
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 67.1,
+              "super_mos_f": 68.8,
+              "hyper_mos_f": null,
+              "raw_f": 69.3
+            }
+          ],
+          "min_mos_mae": 2.23,
+          "min_raw_mae": 6.03,
+          "min_super_mae": 1.5,
+          "min_hyper_mae": null,
+          "max_mos_mae": 0.74,
+          "max_raw_mae": 0.87,
+          "max_super_mae": 1.01,
+          "max_hyper_mae": null
+        },
+        "18Z": {
+          "min": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 37.4,
+              "mos_f": 40.6,
+              "super_mos_f": 39.0,
+              "hyper_mos_f": null,
+              "raw_f": 43.7
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 44.6,
+              "mos_f": 40.8,
+              "super_mos_f": 43.8,
+              "hyper_mos_f": null,
+              "raw_f": 44.9
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 33.8,
+              "mos_f": 31.6,
+              "super_mos_f": 30.6,
+              "hyper_mos_f": null,
+              "raw_f": 36.4
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 28.4,
+              "mos_f": 31.0,
+              "super_mos_f": 31.1,
+              "hyper_mos_f": null,
+              "raw_f": 38.8
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 37.4,
+              "mos_f": 35.4,
+              "super_mos_f": 35.9,
+              "hyper_mos_f": null,
+              "raw_f": 40.3
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 35.6,
+              "mos_f": 34.9,
+              "super_mos_f": 33.8,
+              "hyper_mos_f": null,
+              "raw_f": 42.3
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 33.8,
+              "mos_f": 36.9,
+              "super_mos_f": 35.2,
+              "hyper_mos_f": null,
+              "raw_f": 44.3
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 35.1,
+              "super_mos_f": 34.3,
+              "hyper_mos_f": null,
+              "raw_f": 43.4
+            }
+          ],
+          "max": [
+            {
+              "date": "2026-11-19",
+              "label": "Thu 11/19",
+              "obs_f": 66.2,
+              "mos_f": 64.0,
+              "super_mos_f": 63.5,
+              "hyper_mos_f": null,
+              "raw_f": 64.0
+            },
+            {
+              "date": "2026-11-20",
+              "label": "Fri 11/20",
+              "obs_f": 62.6,
+              "mos_f": 62.8,
+              "super_mos_f": 62.0,
+              "hyper_mos_f": null,
+              "raw_f": 62.8
+            },
+            {
+              "date": "2026-11-21",
+              "label": "Sat 11/21",
+              "obs_f": 57.2,
+              "mos_f": 57.3,
+              "super_mos_f": 58.5,
+              "hyper_mos_f": null,
+              "raw_f": 58.0
+            },
+            {
+              "date": "2026-11-22",
+              "label": "Sun 11/22",
+              "obs_f": 60.8,
+              "mos_f": 60.6,
+              "super_mos_f": 60.4,
+              "hyper_mos_f": null,
+              "raw_f": 61.3
+            },
+            {
+              "date": "2026-11-23",
+              "label": "Mon 11/23",
+              "obs_f": 59.0,
+              "mos_f": 59.3,
+              "super_mos_f": 60.1,
+              "hyper_mos_f": null,
+              "raw_f": 60.0
+            },
+            {
+              "date": "2026-11-24",
+              "label": "Tue 11/24",
+              "obs_f": 64.4,
+              "mos_f": 64.3,
+              "super_mos_f": 64.1,
+              "hyper_mos_f": null,
+              "raw_f": 65.0
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Wed 11/25",
+              "obs_f": 66.2,
+              "mos_f": 65.9,
+              "super_mos_f": 63.7,
+              "hyper_mos_f": null,
+              "raw_f": 66.6
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Today 11/26",
+              "obs_f": null,
+              "mos_f": 70.1,
+              "super_mos_f": 69.7,
+              "hyper_mos_f": null,
+              "raw_f": 70.1
+            }
+          ],
+          "min_mos_mae": 2.51,
+          "min_raw_mae": 5.67,
+          "min_super_mae": 1.86,
+          "min_hyper_mae": null,
+          "max_mos_mae": 0.49,
+          "max_raw_mae": 0.81,
+          "max_super_mae": 1.27,
+          "max_hyper_mae": null
+        }
+      },
+      "control_city": "Cottonwood"
+    },
+    "QVDA3": {
+      "id": "QVDA3",
+      "name": "Verde RAWS",
+      "network": "AZ_DCP",
+      "lat": 34.5491,
+      "lon": -111.8444,
+      "elev_ft": 3107,
+      "obs_date_label": "Wed, Nov 25",
+      "prev_obs_min": 29.0,
+      "prev_obs_max": 68.0,
+      "periods": [
+        {
+          "key": "min_1",
+          "kind": "min",
+          "label": "Morning Min (Day 1)",
+          "fhrs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "window_desc": "f01\u2013f10 (07Z\u201316Z / 12:00 AM\u20139:00 AM MST, 10 hourly steps)",
+          "verify_date": "Thu, Nov 26",
+          "raw_hrrr_f": 41.8,
+          "mos_f": 32.1,
+          "mos_eq_f": 32.1,
+          "used_raw_fallback": false,
+          "delta_f": -9.7,
+          "holdout_mos_mae": 2.54,
+          "holdout_raw_mae": 8.48,
+          "breakdown": [
+            {
+              "term": "Intercept",
+              "value": 1.0,
+              "weight": -19.6624,
+              "contrib": -19.66
+            },
+            {
+              "term": "hrrr_ext_t",
+              "value": 41.78,
+              "weight": 1.0666,
+              "contrib": 44.56
+            },
+            {
+              "term": "hrrr_win_rh",
+              "value": 34.11,
+              "weight": 0.1622,
+              "contrib": 5.53
+            },
+            {
+              "term": "hrrr_wspd10_kt",
+              "value": 3.28,
+              "weight": 0.5093,
+              "contrib": 1.67
+            }
+          ]
+        },
+        {
+          "key": "max_1",
+          "kind": "max",
+          "label": "Afternoon Max (Day 1)",
+          "fhrs": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "window_desc": "f11\u2013f21 (17Z\u201303Z / 10:00 AM\u20138:00 PM MST, 11 hourly steps)",
+          "verify_date": "Thu, Nov 26",
+          "raw_hrrr_f": 71.1,
+          "mos_f": 72.5,
+          "mos_eq_f": 72.5,
+          "used_raw_fallback": false,
+          "delta_f": 1.4,
+          "holdout_mos_mae": 1.88,
+          "holdout_raw_mae": 2.2,
+          "breakdown": [
+            {
+              "term": "Intercept",
+              "value": 1.0,
+              "weight": 2.002,
+              "contrib": 2.0
+            },
+            {
+              "term": "hrrr_ext_t",
+              "value": 71.15,
+              "weight": 0.9911,
+              "contrib": 70.51
+            }
+          ]
+        },
+        {
+          "key": "min_2",
+          "kind": "min",
+          "label": "Morning Min (Day 2)",
+          "fhrs": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "window_desc": "f22\u2013f34 (04Z\u201316Z / 9:00 PM\u20139:00 AM MST, 13 hourly steps)",
+          "verify_date": "Fri, Nov 27",
+          "raw_hrrr_f": 44.6,
+          "mos_f": 31.4,
+          "mos_eq_f": 31.4,
+          "used_raw_fallback": false,
+          "delta_f": -13.2,
+          "holdout_mos_mae": 2.91,
+          "holdout_raw_mae": 9.02,
+          "breakdown": [
+            {
+              "term": "Intercept",
+              "value": 1.0,
+              "weight": 96.68,
+              "contrib": 96.68
+            },
+            {
+              "term": "hrrr_ext_t",
+              "value": 44.61,
+              "weight": 1.1861,
+              "contrib": 52.91
+            },
+            {
+              "term": "hrrr_win_rh",
+              "value": 25.35,
+              "weight": 0.1475,
+              "contrib": 3.74
+            },
+            {
+              "term": "hrrr_hgt_500",
+              "value": 5834.46,
+              "weight": -0.0209,
+              "contrib": -121.9
+            }
+          ]
+        }
+      ],
+      "hourly_curve": [
+        {
+          "fhr": 1,
+          "time_mst": "Thu 12 AM",
+          "raw_temp_f": 45.4
+        },
+        {
+          "fhr": 2,
+          "time_mst": "Thu 01 AM",
+          "raw_temp_f": 45.6
+        },
+        {
+          "fhr": 3,
+          "time_mst": "Thu 02 AM",
+          "raw_temp_f": 45.9
+        },
+        {
+          "fhr": 4,
+          "time_mst": "Thu 03 AM",
+          "raw_temp_f": 44.1
+        },
+        {
+          "fhr": 5,
+          "time_mst": "Thu 04 AM",
+          "raw_temp_f": 43.3
+        },
+        {
+          "fhr": 6,
+          "time_mst": "Thu 05 AM",
+          "raw_temp_f": 41.8
+        },
+        {
+          "fhr": 7,
+          "time_mst": "Thu 06 AM",
+          "raw_temp_f": 42.1
+        },
+        {
+          "fhr": 8,
+          "time_mst": "Thu 07 AM",
+          "raw_temp_f": 43.4
+        },
+        {
+          "fhr": 9,
+          "time_mst": "Thu 08 AM",
+          "raw_temp_f": 43.3
+        },
+        {
+          "fhr": 10,
+          "time_mst": "Thu 09 AM",
+          "raw_temp_f": 48.2
+        },
+        {
+          "fhr": 11,
+          "time_mst": "Thu 10 AM",
+          "raw_temp_f": 54.3
+        },
+        {
+          "fhr": 12,
+          "time_mst": "Thu 11 AM",
+          "raw_temp_f": 59.4
+        },
+        {
+          "fhr": 13,
+          "time_mst": "Thu 12 PM",
+          "raw_temp_f": 63.7
+        },
+        {
+          "fhr": 14,
+          "time_mst": "Thu 01 PM",
+          "raw_temp_f": 67.6
+        },
+        {
+          "fhr": 15,
+          "time_mst": "Thu 02 PM",
+          "raw_temp_f": 70.0
+        },
+        {
+          "fhr": 16,
+          "time_mst": "Thu 03 PM",
+          "raw_temp_f": 71.1
+        },
+        {
+          "fhr": 17,
+          "time_mst": "Thu 04 PM",
+          "raw_temp_f": 71.0
+        },
+        {
+          "fhr": 18,
+          "time_mst": "Thu 05 PM",
+          "raw_temp_f": 65.5
+        },
+        {
+          "fhr": 19,
+          "time_mst": "Thu 06 PM",
+          "raw_temp_f": 61.4
+        },
+        {
+          "fhr": 20,
+          "time_mst": "Thu 07 PM",
+          "raw_temp_f": 59.3
+        },
+        {
+          "fhr": 21,
+          "time_mst": "Thu 08 PM",
+          "raw_temp_f": 55.9
+        },
+        {
+          "fhr": 22,
+          "time_mst": "Thu 09 PM",
+          "raw_temp_f": 54.4
+        },
+        {
+          "fhr": 23,
+          "time_mst": "Thu 10 PM",
+          "raw_temp_f": 52.4
+        },
+        {
+          "fhr": 24,
+          "time_mst": "Thu 11 PM",
+          "raw_temp_f": 51.6
         },
         {
           "fhr": 25,
@@ -8279,57 +9239,57 @@
         {
           "fhr": 26,
           "time_mst": "Fri 01 AM",
-          "raw_temp_f": 50.5
+          "raw_temp_f": 50.0
         },
         {
           "fhr": 27,
           "time_mst": "Fri 02 AM",
-          "raw_temp_f": 49.1
+          "raw_temp_f": 48.4
         },
         {
           "fhr": 28,
           "time_mst": "Fri 03 AM",
-          "raw_temp_f": 47.5
+          "raw_temp_f": 47.6
         },
         {
           "fhr": 29,
           "time_mst": "Fri 04 AM",
-          "raw_temp_f": 46.1
+          "raw_temp_f": 45.1
         },
         {
           "fhr": 30,
           "time_mst": "Fri 05 AM",
-          "raw_temp_f": 45.8
+          "raw_temp_f": 45.5
         },
         {
           "fhr": 31,
           "time_mst": "Fri 06 AM",
-          "raw_temp_f": 45.9
+          "raw_temp_f": 45.4
         },
         {
           "fhr": 32,
           "time_mst": "Fri 07 AM",
-          "raw_temp_f": 44.9
+          "raw_temp_f": 45.0
         },
         {
           "fhr": 33,
           "time_mst": "Fri 08 AM",
-          "raw_temp_f": 44.4
+          "raw_temp_f": 44.6
         },
         {
           "fhr": 34,
           "time_mst": "Fri 09 AM",
-          "raw_temp_f": 48.5
+          "raw_temp_f": 49.7
         },
         {
           "fhr": 35,
           "time_mst": "Fri 10 AM",
-          "raw_temp_f": 55.2
+          "raw_temp_f": 56.2
         },
         {
           "fhr": 36,
           "time_mst": "Fri 11 AM",
-          "raw_temp_f": 60.7
+          "raw_temp_f": 61.7
         }
       ],
       "past_7d_verification": {
@@ -8339,62 +9299,62 @@
               "date": "2026-11-19",
               "label": "Thu 11/19",
               "obs_f": 35.0,
-              "mos_f": 33.9,
-              "super_mos_f": 34.0,
+              "mos_f": 37.0,
+              "super_mos_f": 35.3,
               "hyper_mos_f": null,
-              "raw_f": 43.8
+              "raw_f": 42.2
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 42.0,
-              "mos_f": 36.2,
-              "super_mos_f": 34.8,
+              "obs_f": 44.0,
+              "mos_f": 43.7,
+              "super_mos_f": 42.5,
               "hyper_mos_f": null,
-              "raw_f": 45.2
+              "raw_f": 47.0
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 29.4,
-              "super_mos_f": 31.4,
+              "obs_f": 32.0,
+              "mos_f": 31.0,
+              "super_mos_f": 31.0,
               "hyper_mos_f": null,
-              "raw_f": 37.0
+              "raw_f": 37.1
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 26.1,
-              "super_mos_f": 27.7,
+              "obs_f": 27.0,
+              "mos_f": 28.7,
+              "super_mos_f": 29.4,
               "hyper_mos_f": null,
-              "raw_f": 38.7
+              "raw_f": 38.5
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 31.5,
-              "super_mos_f": 32.1,
+              "obs_f": 37.0,
+              "mos_f": 34.7,
+              "super_mos_f": 35.4,
               "hyper_mos_f": null,
-              "raw_f": 42.5
+              "raw_f": 42.0
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 28.3,
-              "super_mos_f": 29.8,
+              "obs_f": 30.0,
+              "mos_f": 32.7,
+              "super_mos_f": 30.0,
               "hyper_mos_f": null,
-              "raw_f": 39.6
+              "raw_f": 39.7
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 27.7,
-              "super_mos_f": 28.6,
+              "obs_f": 29.0,
+              "mos_f": 31.7,
+              "super_mos_f": 28.4,
               "hyper_mos_f": null,
               "raw_f": 41.4
             },
@@ -8402,93 +9362,93 @@
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 28.2,
-              "super_mos_f": 28.3,
-              "hyper_mos_f": 26.1,
-              "raw_f": 42.5
+              "mos_f": 33.0,
+              "super_mos_f": 29.5,
+              "hyper_mos_f": 28.6,
+              "raw_f": 42.4
             }
           ],
           "max": [
             {
               "date": "2026-11-19",
               "label": "Thu 11/19",
-              "obs_f": 63.0,
-              "mos_f": 67.3,
-              "super_mos_f": 66.1,
+              "obs_f": 69.0,
+              "mos_f": 66.5,
+              "super_mos_f": 66.9,
               "hyper_mos_f": null,
-              "raw_f": 63.8
+              "raw_f": 65.0
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 69.0,
-              "mos_f": 64.3,
-              "super_mos_f": 66.8,
+              "obs_f": 64.0,
+              "mos_f": 61.5,
+              "super_mos_f": 63.8,
               "hyper_mos_f": null,
-              "raw_f": 59.4
+              "raw_f": 59.9
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 60.3,
-              "super_mos_f": 63.9,
+              "obs_f": 64.0,
+              "mos_f": 61.4,
+              "super_mos_f": 63.3,
               "hyper_mos_f": null,
-              "raw_f": 59.0
+              "raw_f": 59.8
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 63.7,
-              "super_mos_f": 63.1,
+              "obs_f": 66.0,
+              "mos_f": 63.9,
+              "super_mos_f": 64.7,
               "hyper_mos_f": null,
-              "raw_f": 61.5
+              "raw_f": 62.4
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 61.1,
-              "super_mos_f": 66.2,
+              "obs_f": 64.0,
+              "mos_f": 62.9,
+              "super_mos_f": 65.2,
               "hyper_mos_f": null,
-              "raw_f": 60.1
+              "raw_f": 61.3
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 66.9,
-              "super_mos_f": 67.7,
+              "obs_f": 69.0,
+              "mos_f": 68.8,
+              "super_mos_f": 69.5,
               "hyper_mos_f": null,
-              "raw_f": 66.0
+              "raw_f": 67.2
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 66.4,
-              "super_mos_f": 68.0,
+              "obs_f": 68.0,
+              "mos_f": 68.8,
+              "super_mos_f": 68.5,
               "hyper_mos_f": null,
-              "raw_f": 66.8
+              "raw_f": 67.3
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 69.5,
-              "super_mos_f": 69.9,
-              "hyper_mos_f": 68.7,
-              "raw_f": 70.3
+              "mos_f": 72.7,
+              "super_mos_f": 73.2,
+              "hyper_mos_f": 73.2,
+              "raw_f": 71.2
             }
           ],
-          "min_mos_mae": 3.45,
-          "min_raw_mae": 6.0,
-          "min_super_mae": 4.1,
+          "min_mos_mae": 1.81,
+          "min_raw_mae": 7.7,
+          "min_super_mae": 1.06,
           "min_hyper_mae": null,
-          "max_mos_mae": 4.5,
-          "max_raw_mae": 5.2,
-          "max_super_mae": 2.65,
+          "max_mos_mae": 1.69,
+          "max_raw_mae": 3.01,
+          "max_super_mae": 0.93,
           "max_hyper_mae": null
         },
         "06Z": {
@@ -8497,156 +9457,156 @@
               "date": "2026-11-19",
               "label": "Thu 11/19",
               "obs_f": 35.0,
-              "mos_f": 33.4,
-              "super_mos_f": 34.3,
+              "mos_f": 36.9,
+              "super_mos_f": 36.2,
               "hyper_mos_f": null,
-              "raw_f": 42.9
+              "raw_f": 41.9
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 42.0,
-              "mos_f": 36.2,
-              "super_mos_f": 35.5,
+              "obs_f": 44.0,
+              "mos_f": 42.3,
+              "super_mos_f": 40.3,
               "hyper_mos_f": null,
-              "raw_f": 45.5
+              "raw_f": 46.3
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 30.5,
-              "super_mos_f": 30.5,
+              "obs_f": 32.0,
+              "mos_f": 31.6,
+              "super_mos_f": 32.9,
               "hyper_mos_f": null,
-              "raw_f": 37.7
+              "raw_f": 38.2
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 28.4,
-              "super_mos_f": 26.8,
+              "obs_f": 27.0,
+              "mos_f": 29.1,
+              "super_mos_f": 30.7,
               "hyper_mos_f": null,
-              "raw_f": 38.4
+              "raw_f": 38.2
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 32.6,
-              "super_mos_f": 30.7,
+              "obs_f": 37.0,
+              "mos_f": 34.1,
+              "super_mos_f": 34.1,
               "hyper_mos_f": null,
-              "raw_f": 40.7
+              "raw_f": 40.8
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 30.1,
-              "super_mos_f": 29.0,
+              "obs_f": 30.0,
+              "mos_f": 33.0,
+              "super_mos_f": 29.7,
               "hyper_mos_f": null,
-              "raw_f": 39.3
+              "raw_f": 39.6
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 30.1,
-              "super_mos_f": 28.3,
+              "obs_f": 29.0,
+              "mos_f": 31.7,
+              "super_mos_f": 29.0,
               "hyper_mos_f": null,
-              "raw_f": 41.0
+              "raw_f": 40.9
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 30.3,
-              "super_mos_f": 28.9,
-              "hyper_mos_f": 27.4,
-              "raw_f": 42.3
+              "mos_f": 32.1,
+              "super_mos_f": 28.4,
+              "hyper_mos_f": 28.4,
+              "raw_f": 41.8
             }
           ],
           "max": [
             {
               "date": "2026-11-19",
               "label": "Thu 11/19",
-              "obs_f": 63.0,
-              "mos_f": 67.1,
-              "super_mos_f": 66.2,
+              "obs_f": 69.0,
+              "mos_f": 66.5,
+              "super_mos_f": 67.0,
               "hyper_mos_f": null,
-              "raw_f": 63.8
+              "raw_f": 65.2
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 69.0,
-              "mos_f": 65.6,
-              "super_mos_f": 69.9,
+              "obs_f": 64.0,
+              "mos_f": 63.4,
+              "super_mos_f": 65.2,
               "hyper_mos_f": null,
-              "raw_f": 61.7
+              "raw_f": 62.1
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 60.3,
-              "super_mos_f": 63.5,
+              "obs_f": 64.0,
+              "mos_f": 61.4,
+              "super_mos_f": 63.4,
               "hyper_mos_f": null,
-              "raw_f": 59.1
+              "raw_f": 59.9
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 63.4,
-              "super_mos_f": 63.1,
+              "obs_f": 66.0,
+              "mos_f": 63.6,
+              "super_mos_f": 64.2,
               "hyper_mos_f": null,
-              "raw_f": 61.2
+              "raw_f": 62.1
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 60.5,
-              "super_mos_f": 65.3,
+              "obs_f": 64.0,
+              "mos_f": 62.2,
+              "super_mos_f": 64.0,
               "hyper_mos_f": null,
-              "raw_f": 59.6
+              "raw_f": 60.7
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 66.9,
-              "super_mos_f": 68.8,
+              "obs_f": 69.0,
+              "mos_f": 68.7,
+              "super_mos_f": 69.9,
               "hyper_mos_f": null,
-              "raw_f": 66.2
+              "raw_f": 67.3
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 66.8,
-              "super_mos_f": 69.0,
+              "obs_f": 68.0,
+              "mos_f": 68.7,
+              "super_mos_f": 69.4,
               "hyper_mos_f": null,
-              "raw_f": 66.7
+              "raw_f": 67.3
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 69.7,
-              "super_mos_f": 70.8,
-              "hyper_mos_f": 68.5,
-              "raw_f": 70.4
+              "mos_f": 72.5,
+              "super_mos_f": 73.8,
+              "hyper_mos_f": 73.7,
+              "raw_f": 71.1
             }
           ],
-          "min_mos_mae": 3.7,
-          "min_raw_mae": 5.7,
-          "min_super_mae": 3.6,
+          "min_mos_mae": 2.1,
+          "min_raw_mae": 7.41,
+          "min_super_mae": 1.81,
           "min_hyper_mae": null,
-          "max_mos_mae": 3.75,
-          "max_raw_mae": 4.05,
-          "max_super_mae": 2.05,
+          "max_mos_mae": 1.56,
+          "max_raw_mae": 2.77,
+          "max_super_mae": 1.13,
           "max_hyper_mae": null
         },
         "12Z": {
@@ -8655,156 +9615,156 @@
               "date": "2026-11-19",
               "label": "Thu 11/19",
               "obs_f": 35.0,
-              "mos_f": 35.1,
-              "super_mos_f": 32.7,
+              "mos_f": 38.1,
+              "super_mos_f": 35.0,
               "hyper_mos_f": null,
-              "raw_f": 43.5
+              "raw_f": 41.7
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 42.0,
-              "mos_f": 35.3,
-              "super_mos_f": 35.0,
+              "obs_f": 44.0,
+              "mos_f": 44.0,
+              "super_mos_f": 44.0,
               "hyper_mos_f": null,
-              "raw_f": 46.6
+              "raw_f": 48.1
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 29.2,
-              "super_mos_f": 30.3,
+              "obs_f": 32.0,
+              "mos_f": 32.2,
+              "super_mos_f": 31.2,
               "hyper_mos_f": null,
-              "raw_f": 37.1
+              "raw_f": 37.2
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 24.3,
-              "super_mos_f": 27.1,
+              "obs_f": 27.0,
+              "mos_f": 26.0,
+              "super_mos_f": 28.7,
               "hyper_mos_f": null,
-              "raw_f": 38.3
+              "raw_f": 37.6
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 29.7,
-              "super_mos_f": 31.1,
+              "obs_f": 37.0,
+              "mos_f": 32.5,
+              "super_mos_f": 33.1,
               "hyper_mos_f": null,
-              "raw_f": 40.5
+              "raw_f": 40.7
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 28.0,
-              "super_mos_f": 27.8,
+              "obs_f": 30.0,
+              "mos_f": 31.2,
+              "super_mos_f": 29.7,
               "hyper_mos_f": null,
-              "raw_f": 40.0
+              "raw_f": 40.1
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 27.5,
-              "super_mos_f": 28.4,
+              "obs_f": 29.0,
+              "mos_f": 31.1,
+              "super_mos_f": 29.6,
               "hyper_mos_f": null,
-              "raw_f": 41.2
+              "raw_f": 41.4
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 27.9,
-              "super_mos_f": 28.5,
+              "mos_f": 31.8,
+              "super_mos_f": 29.3,
               "hyper_mos_f": null,
-              "raw_f": 42.5
+              "raw_f": 41.9
             }
           ],
           "max": [
             {
               "date": "2026-11-19",
               "label": "Thu 11/19",
-              "obs_f": 63.0,
-              "mos_f": 67.5,
-              "super_mos_f": 67.1,
+              "obs_f": 69.0,
+              "mos_f": 67.3,
+              "super_mos_f": 67.9,
               "hyper_mos_f": null,
-              "raw_f": 64.4
+              "raw_f": 65.9
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 69.0,
-              "mos_f": 65.4,
-              "super_mos_f": 69.8,
+              "obs_f": 64.0,
+              "mos_f": 62.3,
+              "super_mos_f": 63.9,
               "hyper_mos_f": null,
-              "raw_f": 61.6
+              "raw_f": 60.9
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 59.0,
-              "super_mos_f": 62.3,
+              "obs_f": 64.0,
+              "mos_f": 61.3,
+              "super_mos_f": 63.4,
               "hyper_mos_f": null,
-              "raw_f": 58.9
+              "raw_f": 59.8
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 62.4,
-              "super_mos_f": 63.4,
+              "obs_f": 66.0,
+              "mos_f": 63.4,
+              "super_mos_f": 64.2,
               "hyper_mos_f": null,
-              "raw_f": 61.0
+              "raw_f": 61.9
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 60.0,
-              "super_mos_f": 65.7,
+              "obs_f": 64.0,
+              "mos_f": 62.4,
+              "super_mos_f": 64.2,
               "hyper_mos_f": null,
-              "raw_f": 59.7
+              "raw_f": 60.9
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 67.9,
-              "super_mos_f": 69.0,
+              "obs_f": 69.0,
+              "mos_f": 68.6,
+              "super_mos_f": 70.2,
               "hyper_mos_f": null,
-              "raw_f": 66.4
+              "raw_f": 67.1
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 67.3,
-              "super_mos_f": 69.0,
+              "obs_f": 68.0,
+              "mos_f": 68.5,
+              "super_mos_f": 69.3,
               "hyper_mos_f": null,
-              "raw_f": 66.8
+              "raw_f": 67.0
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 68.6,
-              "super_mos_f": 70.3,
+              "mos_f": 71.7,
+              "super_mos_f": 72.7,
               "hyper_mos_f": null,
-              "raw_f": 69.4
+              "raw_f": 70.1
             }
           ],
-          "min_mos_mae": 3.4,
-          "min_raw_mae": 6.55,
-          "min_super_mae": 4.65,
+          "min_mos_mae": 1.73,
+          "min_raw_mae": 7.54,
+          "min_super_mae": 1.04,
           "min_hyper_mae": null,
-          "max_mos_mae": 4.05,
-          "max_raw_mae": 4.4,
-          "max_super_mae": 2.45,
+          "max_mos_mae": 1.6,
+          "max_raw_mae": 2.93,
+          "max_super_mae": 0.9,
           "max_hyper_mae": null
         },
         "18Z": {
@@ -8813,156 +9773,156 @@
               "date": "2026-11-19",
               "label": "Thu 11/19",
               "obs_f": 35.0,
-              "mos_f": 36.5,
-              "super_mos_f": 32.8,
+              "mos_f": 36.8,
+              "super_mos_f": 34.7,
               "hyper_mos_f": null,
-              "raw_f": 43.3
+              "raw_f": 41.8
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 42.0,
-              "mos_f": 36.7,
-              "super_mos_f": 35.8,
+              "obs_f": 44.0,
+              "mos_f": 43.9,
+              "super_mos_f": 42.0,
               "hyper_mos_f": null,
-              "raw_f": 47.6
+              "raw_f": 47.3
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 27.5,
-              "super_mos_f": 30.3,
+              "obs_f": 32.0,
+              "mos_f": 31.2,
+              "super_mos_f": 30.0,
               "hyper_mos_f": null,
-              "raw_f": 35.9
+              "raw_f": 36.2
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 24.7,
-              "super_mos_f": 26.6,
+              "obs_f": 27.0,
+              "mos_f": 27.1,
+              "super_mos_f": 28.5,
               "hyper_mos_f": null,
-              "raw_f": 38.3
+              "raw_f": 38.1
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 30.2,
-              "super_mos_f": 32.0,
+              "obs_f": 37.0,
+              "mos_f": 33.7,
+              "super_mos_f": 35.4,
               "hyper_mos_f": null,
-              "raw_f": 41.2
+              "raw_f": 41.9
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 27.7,
-              "super_mos_f": 28.6,
+              "obs_f": 30.0,
+              "mos_f": 31.1,
+              "super_mos_f": 29.4,
               "hyper_mos_f": null,
-              "raw_f": 39.1
+              "raw_f": 39.5
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 27.6,
-              "super_mos_f": 28.6,
+              "obs_f": 29.0,
+              "mos_f": 31.4,
+              "super_mos_f": 29.4,
               "hyper_mos_f": null,
-              "raw_f": 41.2
+              "raw_f": 41.3
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 27.7,
-              "super_mos_f": 28.0,
+              "mos_f": 31.9,
+              "super_mos_f": 29.3,
               "hyper_mos_f": null,
-              "raw_f": 42.3
+              "raw_f": 42.0
             }
           ],
           "max": [
             {
               "date": "2026-11-19",
               "label": "Thu 11/19",
-              "obs_f": 63.0,
-              "mos_f": 67.4,
-              "super_mos_f": 68.2,
+              "obs_f": 69.0,
+              "mos_f": 66.7,
+              "super_mos_f": 68.0,
               "hyper_mos_f": null,
-              "raw_f": 63.9
+              "raw_f": 65.1
             },
             {
               "date": "2026-11-20",
               "label": "Fri 11/20",
-              "obs_f": 69.0,
-              "mos_f": 65.9,
-              "super_mos_f": 70.3,
+              "obs_f": 64.0,
+              "mos_f": 64.1,
+              "super_mos_f": 65.1,
               "hyper_mos_f": null,
-              "raw_f": 61.9
+              "raw_f": 62.4
             },
             {
               "date": "2026-11-21",
               "label": "Sat 11/21",
-              "obs_f": null,
-              "mos_f": 60.6,
-              "super_mos_f": 62.7,
+              "obs_f": 64.0,
+              "mos_f": 60.9,
+              "super_mos_f": 63.0,
               "hyper_mos_f": null,
-              "raw_f": 58.2
+              "raw_f": 59.1
             },
             {
               "date": "2026-11-22",
               "label": "Sun 11/22",
-              "obs_f": null,
-              "mos_f": 64.3,
-              "super_mos_f": 63.7,
+              "obs_f": 66.0,
+              "mos_f": 64.0,
+              "super_mos_f": 64.5,
               "hyper_mos_f": null,
-              "raw_f": 61.4
+              "raw_f": 62.2
             },
             {
               "date": "2026-11-23",
               "label": "Mon 11/23",
-              "obs_f": null,
-              "mos_f": 61.5,
-              "super_mos_f": 64.2,
+              "obs_f": 64.0,
+              "mos_f": 62.2,
+              "super_mos_f": 64.0,
               "hyper_mos_f": null,
-              "raw_f": 59.6
+              "raw_f": 60.5
             },
             {
               "date": "2026-11-24",
               "label": "Tue 11/24",
-              "obs_f": null,
-              "mos_f": 68.0,
-              "super_mos_f": 69.5,
+              "obs_f": 69.0,
+              "mos_f": 69.2,
+              "super_mos_f": 70.5,
               "hyper_mos_f": null,
-              "raw_f": 66.5
+              "raw_f": 67.5
             },
             {
               "date": "2026-11-25",
               "label": "Wed 11/25",
-              "obs_f": null,
-              "mos_f": 67.5,
-              "super_mos_f": 68.9,
+              "obs_f": 68.0,
+              "mos_f": 68.6,
+              "super_mos_f": 68.8,
               "hyper_mos_f": null,
-              "raw_f": 66.7
+              "raw_f": 66.9
             },
             {
               "date": "2026-11-26",
               "label": "Today 11/26",
               "obs_f": null,
-              "mos_f": 68.7,
-              "super_mos_f": 69.8,
+              "mos_f": 72.2,
+              "super_mos_f": 73.0,
               "hyper_mos_f": null,
-              "raw_f": 69.9
+              "raw_f": 70.7
             }
           ],
-          "min_mos_mae": 3.4,
-          "min_raw_mae": 6.95,
-          "min_super_mae": 4.2,
+          "min_mos_mae": 1.37,
+          "min_raw_mae": 7.44,
+          "min_super_mae": 1.2,
           "min_hyper_mae": null,
-          "max_mos_mae": 3.75,
-          "max_raw_mae": 4.0,
-          "max_super_mae": 3.25,
+          "max_mos_mae": 1.44,
+          "max_raw_mae": 2.9,
+          "max_super_mae": 0.99,
           "max_hyper_mae": null
         }
       },
